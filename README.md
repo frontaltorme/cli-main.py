@@ -12,11 +12,13 @@ Veriler **Etherscan API** kullanılarak çekilir.
    git clone https://github.com/kullaniciadiniz/crypto-utils.git
    cd crypto-utils
 2. Sanal ortam oluştur ve bağımlılıkları yükle:
-  python -m venv venv
-  source venv/bin/activate   # Windows için: venv\Scripts\activate
-  pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate   # Windows için: venv\Scripts\activate
+pip install -r requirements.txt
+
 3. .env dosyası oluştur ve Etherscan API anahtarını ekle:
-   ETHERSCAN_API_KEY=senin_keyin
+ETHERSCAN_API_KEY=senin_keyin
+
 
 ## Kullanım
 
@@ -38,3 +40,26 @@ Katkı
 Pull request açabilirsiniz.
 
 API key’inizi .env dosyasına koymayı unutmayın, asla repoya yüklemeyin!
+
+---
+
+### Yapman Gereken
+1. README.md içeriğini sil → yukarıdaki metni yapıştır.  
+2. Commit butonuna basmadan önce:  
+   - **Yeni branch aç → `docs/usage-readme`** seç.  
+   - Commit mesajı:  
+     ```
+     docs: add usage instructions for Etherscan exporter
+     ```  
+3. Sonra **PR aç → Merge et**.  
+
+---
+
+👉 Bunu yaptıktan sonra senin repoda **3 farklı katkı türü** olmuş olacak:  
+- `feat` (özellik ekleme)  
+- `chore` (altyapı dosyaları)  
+- `docs` (dokümantasyon)  
+
+Böylece GitHub profilinde profesyonel bir proje gibi görünecek ✨  
+
+İstiyor musun ben sana `.gitignore` dosyasını da hazır vereyim, tek seferde ekleyelim?
