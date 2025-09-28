@@ -40,26 +40,3 @@ Katkı
 Pull request açabilirsiniz.
 
 API key’inizi .env dosyasına koymayı unutmayın, asla repoya yüklemeyin!
-
----
-
-### Yapman Gereken
-1. README.md içeriğini sil → yukarıdaki metni yapıştır.  
-2. Commit butonuna basmadan önce:  
-   - **Yeni branch aç → `docs/usage-readme`** seç.  
-   - Commit mesajı:  
-     ```
-     docs: add usage instructions for Etherscan exporter
-     ```  
-3. Sonra **PR aç → Merge et**.  
-
----
-
-👉 Bunu yaptıktan sonra senin repoda **3 farklı katkı türü** olmuş olacak:  
-- `feat` (özellik ekleme)  
-- `chore` (altyapı dosyaları)  
-- `docs` (dokümantasyon)  
-
-Böylece GitHub profilinde profesyonel bir proje gibi görünecek ✨  
-
-İstiyor musun ben sana `.gitignore` dosyasını da hazır vereyim, tek seferde ekleyelim?
