@@ -22,9 +22,9 @@ echo "ETHERSCAN_API_KEY=senin_keyin" > .env
 
 ## Kullanım
 
-Ethereum adresinin son işlemlerini CSV’ye export etmek için:
+# Ethereum adresinin son işlemlerini CSV’ye export etmek için:
 
-# python -m cli 0xADRESIN --chain eth --limit 50 --out txs.csv
+python -m cli 0xADRESIN --chain eth --limit 50 --out txs.csv
 
 
 --0xADRESIN → İşlemleri almak istediğin adres
